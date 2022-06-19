@@ -1,0 +1,38 @@
+Create tables:
+•	Student - id, name, age, gender
+•	Class - id, name, code
+•	Subject  [let there be 3 subjects at least] - id, name, code
+•	Exams, [quarterly, half-yearly, annual exam] - id, name, code
+•	result - HOLD
+•	Create Mapper tables as and when needed. [ENSURE THERE IS NO REDUNDANCY]
+
+Find out the associations and Primary keys. First, draw DB design using pen and paper. and let me know
+
+
+
+1. Class (Ninth, Tenth) :- 
+	a) When you save a class then corresponding students (at least 5 per class) should be saved along with the class
+	b) Display Data as class-wise and under each class show all the active students
+
+2. Exams - Quarterly, Half-Yearly, Annual
+	a) Save All, Show one
+
+3. Subjects - Maths Physics Chemistry
+	a) Save All, Show one
+
+4. Students
+	a) Save All, Show one, Delete One, Update One
+
+5. Prepare the mapper tables manually and then using Hibernate,
+	a) Show All the Students along with associated Subjects
+	b) Show All the Students along with enrolled examination
+	c) Remove students enrollment from Examination whose feedback is bad
+
+Instructions to be followed:
+	Make use of reusability across the classes, Repositories
+	Follow separate methods to demonstrate each task
+	Follow standard naming conventions and packages
+	Avoid duplication
+	Duration - 8 hrs
+
+
